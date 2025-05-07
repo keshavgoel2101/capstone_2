@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-blue-50 fixed w-full  py-4 px-6 flex items-center justify-between">
+    <nav className="bg-blue-50 fixed w-full py-4 px-6 flex items-center justify-between">
   
       <Link href="/" className="flex items-center">
         <div className="text-blue-700 mr-2">
@@ -20,21 +20,21 @@ const Navbar = () => {
             <path d="M9 22V12H15V22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
-        <span className="font-semibold text-gray-800">DreamEstate</span>
+        <span className="font-semibold text-gray-800">NSTian Brokerage</span>
       </Link>
 
      
       <div className="hidden md:flex space-x-8">
         <Link href="/" className="font-medium text-gray-900">Home</Link>
         <Link href="/about" className="font-medium text-gray-500 hover:text-gray-900">About Us</Link>
-        <Link href="/properties" className="font-medium text-gray-500 hover:text-gray-900">Properties</Link>
+        <Link href="https://www.99acres.com/search/property/buy/commercial-all/delhi-ncr?city=1&property_type=C&preference=S&area_unit=1&res_com=C" className="font-medium text-gray-500 hover:text-gray-900">Properties</Link>
         <Link href="/agents" className="font-medium text-gray-500 hover:text-gray-900">Agents</Link>
       </div>
  
       <div className="hidden md:block">
-        <button className="border border-gray-500 rounded px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors">
+        <Link href="https://99acres.com"><button className="border border-gray-500 rounded px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors">
           Find A House
-        </button>
+        </button></Link>
       </div>
 
  
